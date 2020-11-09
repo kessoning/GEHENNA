@@ -18,7 +18,7 @@ void setup() {
 
   frameRate(1000);
 
-  shader = loadShader("timeless.glsl");
+  shader = loadShader("shader.glsl");
   shader.set("resolution", float(pg1.width), float(pg1.height));
   shader.set("time", 0.0);
   shader.set("volume", 0.0);
